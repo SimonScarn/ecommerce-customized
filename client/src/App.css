@@ -1,0 +1,38 @@
+::-webkit-scrollbar {
+  width: 1em;
+  margin-right: 2rem;
+
+}
+
+::-webkit-scrollbar-track {
+  background: whitesmoke;
+  border-radius: 1rem;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background:  grey;
+  border-radius: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.App {
+  width: 100%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width: 700px) {
+  .App {
+  }
+
+}
